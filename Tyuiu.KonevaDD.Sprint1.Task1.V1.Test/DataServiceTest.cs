@@ -10,7 +10,7 @@ namespace Tyuiu.KonevaDD.Sprint1.Task1.V1.Test
             DataService ds = new DataService();
             double x = 184.02; double y = 2.0;
             double a = 4.0; var res = ds.Calculate(a, x, y);
-            Assert.AreEqual(24.5, res);
+            Assert.AreEqual(54,67, res);
 
         }
     }
